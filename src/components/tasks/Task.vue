@@ -43,7 +43,7 @@
 <style scoped>
   .list-item .lblll {
     width: 50%;
-    background-color: greenyellow;
+    background-color: blue;
     align-items: center;
     display: flex;
     padding: 0 1em;
