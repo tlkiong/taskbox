@@ -7,7 +7,7 @@
     <div class="title">
       <input type="text" :value="task.title" readonly placeholder="Input title" />
     </div>
-    <div class="lblll">Ahahaha</div>
+    <div class="lblll">New Label here</div>
 
     <div class="actions">
       <a v-if="!isChecked" @click="$emit('pin-task', task.id)">
@@ -43,6 +43,9 @@
 <style scoped>
   .list-item .lblll {
     width: 50%;
-    background-color: red;
+    background-color: blue;
+    align-items: center;
+    display: flex;
+    padding: 0 1em;
   }
 </style>
